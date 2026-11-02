@@ -1,0 +1,11 @@
+{
+  "name": "voidzone-gaming-cafe",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "npx wrangler deploy",
+    "d1:init:local": "npx wrangler d1 execute voidzone-db --local --file=./schema.sql",
+    "d1:init:remote": "npx wrangler d1 execute voidzone-db --remote --file=./schema.sql"
+  }
+}
