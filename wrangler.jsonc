@@ -1,13 +1,13 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "voidzone-gaming-cafe",
+  "name": "void",
   "main": "worker.js",
   "compatibility_date": "2026-03-18",
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "voidzone-db",
-      "database_id": "your-database-id-here"
+      "database_id": "ab6398b5-4b91-4205-a7ad-915e51a4483b"
     }
   ]
 }
